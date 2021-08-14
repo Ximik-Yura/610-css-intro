@@ -1,0 +1,40 @@
+* {
+    margin:0;
+    padding:0;
+
+}
+
+:root {
+    font-size: 20px;
+}
+
+h1, p {
+    border: 1px solid black;
+    padding: 5px 4px 3px 2px; 
+    color: blue;
+    
+}
+.ola {
+    font-weight: bold;
+    color: red;
+}
+#Yura1 {
+    transform: rotate(180deg);
+}
+p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+p::first-letter {
+    color: green;
+}
+
+div p {
+    border:1px solid red;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+}
